@@ -1,0 +1,68 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f4f4f4;
+  padding: 10px 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.banner {
+  background: #e0e0e0;
+  text-align: center;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.info,
+.package,
+.cta {
+  padding: 20px;
+  text-align: center;
+}
+
+form input,
+form select,
+form button {
+  display: block;
+  margin: 10px auto;
+  width: 80%;
+  padding: 10px;
+}
+
+form button {
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.destination {
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+}
+
+footer {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 10px;
+}
